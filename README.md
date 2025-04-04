@@ -1,7 +1,7 @@
 # secure-browser-prep
 App to close prohibited apps before using secure testing browsers.
 
-To create a .exe file, run: dotnet publish -c Release -r win10-x64
+To create a .exe file, run: dotnet publish -c Release -r win-x64 --self-contained
 Open included .aip file in Advanced Installer
 Click Build to create .msi file in SecureBrowserPrepInstaller folder
 Run .\IntuneWinAppUtil.exe -c .\SecureBrowserPrepInstaller\ -s SecureBrowserPrep.msi -o .
